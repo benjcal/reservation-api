@@ -141,7 +141,7 @@ curl --request POST \
 	'
 ```
 
-Important: This command can only be executed once with the given time parameters. Attempting to run it again will result in an error due to a conflict with the existing reservation. To create additional reservations, you must modify the `startTime` and `endTime` values to avoid overlapping with previously entered time slots.
+**Note**: This command can only be executed once with the given time parameters. Attempting to run it again will result in an error due to a conflict with an existing reservation. To create additional reservations, you must modify the `startTime` and `endTime` values to avoid overlapping with previously entered time slots.
 
 ### Get Customers
 
