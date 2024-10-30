@@ -28,20 +28,20 @@ npm run db:reset
 
 Note: By default, 3 service bays are seeded in the project. You can find this configuration in `prisma/seed.ts`.
 
-### Starting the Server
-
-To start the API server, run:
-
-```bash
-npm start
-```
-
 ### Running Tests
 
 To run the test suite, use:
 
 ```bash
 npm test
+```
+
+### Starting the Server
+
+To start the API server, run:
+
+```bash
+npm start
 ```
 
 ## API Endpoints
@@ -140,6 +140,8 @@ curl --request POST \
 		}
 	'
 ```
+
+Important: This command can only be executed once with the given time parameters. Attempting to run it again will result in an error due to a conflict with the existing reservation. To create additional reservations, you must modify the `startTime` and `endTime` values to avoid overlapping with previously entered time slots.
 
 ### Get Customers
 
