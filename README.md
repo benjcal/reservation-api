@@ -2,6 +2,8 @@
 
 This project is a reservation API for managing customers, vehicles, and service bay reservations.
 
+> Check `docs/` for more information about the project scope and design details.
+
 ## Getting Started
 
 ### Prerequisites
