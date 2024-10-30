@@ -14,13 +14,13 @@ const mockCustomer: Customer = {
 	firstName: "John",
 	lastName: "Doe",
 	email: "johnd@example.com",
-	phoneNumber: null,
-	street: null,
-	city: null,
-	state: null,
-	postalCode: null,
-	country: null,
-	notes: null,
+	phoneNumber: "(555) 123-4567",
+	street: "123 Main St",
+	city: "Anytown",
+	state: "CA",
+	postalCode: "12345",
+	country: "USA",
+	notes: "Preferred customer",
 };
 
 //

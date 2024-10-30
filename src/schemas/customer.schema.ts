@@ -5,11 +5,11 @@ const customerSchema = vine.object({
 	firstName: vine.string(),
 	lastName: vine.string(),
 	email: vine.string().email(),
-	phoneNumber: vine.string().mobile().optional(),
+	phoneNumber: vine.string().optional(),
 	street: vine.string().optional(),
 	city: vine.string().optional(),
 	state: vine.string().optional(),
-	postalCode: vine.string().postalCode().optional(),
+	postalCode: vine.string().optional(),
 	country: vine.string().optional(),
 	notes: vine.string().optional(),
 });
